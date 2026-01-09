@@ -100,7 +100,7 @@ nav ul li a {
     width: 10px;
     height: 10px;
     background-color: #469165;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: inline-block;
 }
 
@@ -144,14 +144,14 @@ nav ul li a {
 .banner-container .hero-buttons .work-btn {
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 500; 
+    font-weight: 500;
     padding: 12px 16px;
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
     display: inline-flex;
     align-items: center;
-    gap: 8px; 
+    gap: 8px;
 }
 
 #doontfail {
@@ -160,31 +160,44 @@ nav ul li a {
 
 
 #doontfail .doontfail-container .doontfail-header {
-  text-align: center;
+    text-align: center;
 
 
 }
 
 
 #doontfail .doontfail-container .doontfail-header h2 {
-  font-size: 48px;
-  margin-bottom: 16px;
-  font-weight: 700;
-  color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #001931;
 }
 
 
-#doontfail .doontfail-container .doontfail-header P{
+#doontfail .doontfail-container .doontfail-header P {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
 
 }
 
-
 #doontfail .doontfailcards {
     display: flex;
-    
+    gap: 25px;
+    justify-content: center;
 }
 
+.doontfail-item {
+    padding: 24px;
+    font-style: semibold;
+    text-align: center;
+    margin-top: 44px;
+    max-width: 322px;
+    max-height: 300px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    gap: 16px;
+    padding: 24px;
+}
 
