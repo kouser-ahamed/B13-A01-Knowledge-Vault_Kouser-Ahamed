@@ -202,29 +202,78 @@ nav ul li a {
 }
 
 .doontfail-item .icon-bubble {
-  width: 60px;
-  height: 60px;
-  background-color:  rgba(249, 85, 85, 1);
-  border-radius: none;
-  display: flex;
-  margin: 0 auto 16px auto;
-  align-items: center;
-  justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: none;
+    display: flex;
+    margin: 0 auto 16px auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .doontfail-item h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 16px;
-  color: #001931;
-  text-transform: capitalize;
-  text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #001931;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .doontfail-item p {
-  font-size: 16px;
-  text-align: center;
-  color: #627382;
+    font-size: 16px;
+    text-align: center;
+    color: #627382;
 }
 
 
+
+#solution-msg {
+    padding: 120px;
+}
+
+#solution-msg .solution-msg-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1360px;
+
+}
+
+#solution-msg .msg {    
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+
+#solution-msg .solution-msg-text h2 {
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    font-style: Bold;
+    text-align: left;
+    color: #001931;
+
+}
+
+#solution-msg .solution-msg-text p {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#solution-msg .solution-msg-container .solution-msg-list li{
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    gap:6px;
+    align-items: center;
+
+}
