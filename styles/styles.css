@@ -61,6 +61,8 @@ nav ul li a {
     padding: 12px 16px;
     background-color: #469165;
     border-radius: 4px;
+    cursor: pointer;
+
 
 }
 
@@ -240,11 +242,11 @@ nav ul li a {
 
 }
 
-#solution-msg .msg {
+#solution-msg .solution-msg-text .msg {
     font-size: 16px;
     font-weight: 600;
     color: #469165;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 #solution-msg .solution-msg-text h2 {
@@ -285,6 +287,7 @@ nav ul li a {
     text-align: center;
     font-family: Inter, sans-serif;
 }
+
 .think-more-content h2 {
     font-size: 40px;
     font-weight: bold;
@@ -300,4 +303,66 @@ nav ul li a {
 
 .think-more-content .free-note {
     margin-top: 16px;
+}
+
+
+.footer {
+    margin-top: 120px;
+    background-color: #001931;
+}
+
+.footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px 0 80px 0;
+}
+
+.footer-logo img {
+    max-width: 160px;
+}
+
+.Social p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.Social .icon {
+    display: flex;
+    gap: 16px;
+}
+
+.Social .icon a {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e99696;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer-container hr {
+    border: none;
+    border-top: 1px solid rgba(229, 231, 235, 0.2);
+}
+
+.copyright {
+    padding: 30px 0;
+}
+
+.copyright p {
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
 }
