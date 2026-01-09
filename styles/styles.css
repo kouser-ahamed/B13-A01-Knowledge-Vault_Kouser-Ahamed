@@ -201,3 +201,30 @@ nav ul li a {
     padding: 24px;
 }
 
+.doontfail-item .icon-bubble {
+  width: 60px;
+  height: 60px;
+  background-color:  rgba(249, 85, 85, 1);
+  border-radius: none;
+  display: flex;
+  margin: 0 auto 16px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.doontfail-item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #001931;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.doontfail-item p {
+  font-size: 16px;
+  text-align: center;
+  color: #627382;
+}
+
+
