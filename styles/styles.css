@@ -127,7 +127,8 @@ nav ul li a {
 
 }
 
-.banner-container .hero-buttons .start-btn {
+.banner-container .hero-buttons .start-btn,
+.early-access-btn {
     font-size: 16px;
     color: #ffffff;
     padding: 12px 16px;
@@ -164,7 +165,6 @@ nav ul li a {
 
 
 }
-
 
 #doontfail .doontfail-container .doontfail-header h2 {
     font-size: 48px;
@@ -227,8 +227,6 @@ nav ul li a {
     color: #627382;
 }
 
-
-
 #solution-msg {
     padding: 120px;
 }
@@ -242,13 +240,12 @@ nav ul li a {
 
 }
 
-#solution-msg .msg {    
+#solution-msg .msg {
     font-size: 16px;
     font-weight: 600;
     color: #469165;
     margin-bottom: 16px;
 }
-
 
 #solution-msg .solution-msg-text h2 {
 
@@ -269,11 +266,38 @@ nav ul li a {
     margin-bottom: 40px;
 }
 
-#solution-msg .solution-msg-container .solution-msg-list li{
+#solution-msg .solution-msg-container .solution-msg-list li {
     list-style: none;
     margin-bottom: 16px;
     display: flex;
-    gap:6px;
+    gap: 6px;
     align-items: center;
 
+}
+
+#think-more {
+    margin: 0 120px 120px 120px;
+    padding: 80px 40px;
+    background: #f7f6f2;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+.think-more-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.think-more-content p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+.think-more-content .free-note {
+    margin-top: 16px;
 }
