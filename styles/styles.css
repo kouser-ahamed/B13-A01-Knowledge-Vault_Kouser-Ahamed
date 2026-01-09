@@ -306,6 +306,8 @@ nav ul li a {
 }
 
 
+
+
 .footer {
     margin-top: 120px;
     background-color: #001931;
@@ -366,3 +368,34 @@ nav ul li a {
     color: #fafafa;
     text-align: center;
 }
+
+
+
+
+.start-btn, .work-btn, .nav-button, .early-access-btn {
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.start-btn:hover, .work-btn:hover, .nav-button:hover, .early-access-btn:hover {
+    background-color: red; 
+    color: #ffffff; 
+}
+
+
+.hero-buttons .start-btn, .hero-buttons .work-btn {
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .start-btn:hover {
+    background-color: red; 
+    color: #ffffff; /
+}
+
+.hero-buttons .work-btn:hover {
+    background-color: red; 
+    border: 1px solid red; 
+    color: #ffffff; 
+}
+
