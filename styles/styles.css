@@ -27,7 +27,7 @@
 
 header {
     background-color: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 16px;
 
 }
@@ -57,9 +57,99 @@ nav ul li a {
 
 }
 
-.nav-button{
+.nav-button {
     padding: 12px 16px;
     background-color: #469165;
     border-radius: 4px;
 
+}
+
+#banner {
+    height: 674px;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    text-align: center;
+    background-image: url("../assets/hero-bg.png");
+
+}
+
+.banner-container {
+    text-align: center;
+    padding: 154px 341px;
+
+}
+
+.banner-container .early-access {
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    font-weight: 183px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    color: #469165;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.banner-container .early-access .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #469165;
+    border-radius: 50%; 
+    display: inline-block;
+}
+
+.banner-container h1 {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 700px;
+
+}
+
+.banner-container p {
+    font-size: 18px;
+    margin-top: 16px;
+    color: #ffffff;
+
+}
+
+.banner-container .hero-buttons {
+    gap: 16px;
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+
+}
+
+.banner-container .hero-buttons .start-btn {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: 251px;
+    background-color: #469165;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.banner-container .hero-buttons .work-btn {
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500; 
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
 }
